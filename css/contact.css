@@ -1,0 +1,128 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+    font-family: 'Gelasio', serif;
+}
+
+.heading{
+    padding: 16px 0px;
+    margin: 0px 0px 0px 40px;
+}
+.heading h3{
+	font-size: 34px;
+    color: gray;
+}
+
+nav ul{
+    list-style: none;
+    color: black;
+}
+ nav ul li{
+   display: inline-block;
+    margin: 30px 0px;
+ }
+ nav ul li a{
+     margin: 0px 29px;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: black;
+ }
+  nav ul li a:hover{
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+ }
+.contact-one span{
+    border-top: 5px solid #e4e4e4;
+    display: block;
+    width: 100%;
+
+ }
+.contact-one{
+	background-color:#ee4a3f;
+}
+.content-one{
+
+}
+.content-one h2{
+    margin: 40px 0px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+.content-one img{
+    width: 100%;
+}
+.content-one p{
+    color: white;
+    margin: 15px 0px;
+    font-size: 15px;
+    line-height: 17px;
+}
+.rectangle{
+         margin-top: 70px;
+}
+.rectangle img {
+         width: 100%;
+}
+.form{
+	background-color:#ee4a3f;
+	color: white; 
+	padding-bottom: 50px;
+}
+.form-control{
+background-color: #ff6258;
+    width: 90%;
+}
+.btn{
+	 margin: 30% 0%;
+    color: white;
+    font-size: 27px;
+    font-weight: bold;
+}
+.part-four{
+    background-color: #ef4035;
+}
+.rights p {
+    font-size: 12px;
+    padding: 33px 0px;
+    color: white;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+@media(min-width: 0px) and (max-width: 500px){
+nav ul li {
+    display: inline-block;
+    margin: 5px 0px;
+}
+nav ul li a {
+    margin: 0px 9px;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: black;
+}
+.heading {
+    padding: 16px 0px;
+    margin: 0px 0px 0px 0px;
+}
+.heading h3 {
+    font-size: 30px;
+    color: gray;
+}
+.rectangle img {
+    width: 63%;
+}
+.rectangle {
+    margin: 15px 81px;
+}
+.btn {
+    margin: 5% 0%;
+    color: white;
+    font-size: 27px;
+    font-weight: bold;
+}
+}
+

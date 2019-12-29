@@ -1,0 +1,128 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+    font-family: 'Gelasio', serif;
+}
+
+.heading{
+    padding: 16px 0px;
+    margin: 0px 0px 0px 40px;
+}
+.heading h3{
+	font-size: 34px;
+    color: gray;
+}
+
+nav ul{
+    list-style: none;
+    color: black;
+}
+ nav ul li{
+   display: inline-block;
+    margin: 30px 0px;
+ }
+ nav ul li a{
+     margin: 0px 29px;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: black;
+ }
+  nav ul li a:hover{
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+ }
+ .about-one span{
+    border-top: 5px solid gray;
+    display: block;
+    width: 100%;     
+ }
+
+.content-one{
+
+ }
+
+.content-one h2{
+    margin: 40px 0px;
+    font-size: 50px;
+    text-transform: uppercase;
+ }
+
+.content-one p{
+    margin: 30px 0px;
+}
+.main-div{
+     margin: 100px 0px;
+    position: relative;
+ }
+.subdiv-one{
+    position: absolute;
+    top: 14px;
+}
+.subdiv-one img{
+   width: 90%;
+}
+.subdiv-two{
+    position: absolute;
+    top: 46px;
+    left: 150px;
+}
+.subdiv-two img{
+    width: 95%;
+}
+
+.content{
+margin-bottom: 80px;
+}
+
+.part-four{
+    background-color: #ef4035;
+}
+.rights p {
+    font-size: 12px;
+    padding: 33px 0px;
+    color: white;
+    margin-bottom: 0px;
+    text-align: center;
+}
+@media(min-width: 0px) and (max-width:500px){
+
+.heading {
+    padding: 16px 0px;
+    margin: 0px 0px 0px 8px;
+}
+.heading h3 {
+    font-size: 30px;
+    color: gray;
+}
+nav ul li {
+    display: inline-block;
+    margin: 5px 0px;
+}
+nav ul li a {
+    margin: 0px 10px;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: black;
+}
+.content {
+    margin-top: 148px;
+}
+.content-one p {
+    margin: 0px 0px;
+}
+.main-div {
+    margin: 10px 0px;
+    position: relative;
+}
+.subdiv-one img {
+    width: 55%;
+}
+.subdiv-two {
+    position: absolute;
+    top: 25px;
+    left: 77px;
+}
+} 

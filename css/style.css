@@ -1,0 +1,204 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+    font-family: 'Gelasio', serif;
+}
+.bk-pic{
+    background-image: url(../img/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.heading{
+	padding: 16px 0px;
+    margin: 22px 0px;
+}
+.heading h3{
+	font-size: 39px;
+    color: #fafd17;
+    font-family: 'Dancing Script', cursive;
+}
+
+nav ul{
+    list-style: none;
+    color: white;
+}
+ nav ul li{
+   display: inline-block;
+    margin: 55px 0px;
+ }
+ nav ul li a{
+     margin: 0px 29px;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: white;
+ }
+ nav ul li a:hover{
+ 	text-decoration: none;
+ 	color: green;
+    font-weight: bold;
+ }
+.call-us{
+       margin: 50px 0px;
+}
+.call-us h1{
+    background: #1b1a1a8c;
+    padding-left: 23px;
+    color: white;
+    font-size: 35px;
+} 
+.call-us p{
+    margin: 20px 0px;
+    font-size: 15px;
+    color: white;
+}
+span{
+    border-bottom: 1px solid white;
+    display: block;
+    width: 30px;
+    margin: 50px 0px;
+}
+.call-us button{
+    border: 2px solid white;
+    background: none;
+    padding: 5px 60px;
+    margin: 5px 0px 100px 0px;
+}
+.call-us a{
+    color: white;
+    font-size: 14px;
+ }
+
+ .part-two{
+    padding-top: 50px;
+    background-color: #f6f6f6;
+ }
+
+.welcome{
+   
+}
+.welcome h2{
+      margin: 50px 0px 0px 0px;
+    font-size: 40px;
+}
+.welcome span{
+    border-bottom: 1px solid black;
+    display: block;
+    width: 30px;
+    margin: 20px 0px 40px 0px;
+}
+.welcome p {
+ color: gray;
+}
+.main-div{
+    position: relative;
+    margin: 100px 0px;
+}
+.subdiv-one{
+    position: absolute;
+}
+.subdiv-two {
+    position: absolute;
+    top: 45px;
+    left: 280px;
+}
+.subdiv-one img {
+    width: 126%;
+}
+.subdiv-two img{
+    width: 100%;
+}
+.part-three{
+    background-color:#28282e;
+    }   
+
+.part-three h2{
+    color: white;
+    margin: 70px 0px 15px 0px;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+}  
+.part-three p{
+    color:white;
+}
+.part-three span{
+    border: 1px solid white;
+    margin: 0px 0px 40px 0px;
+    width: 30px;
+    display: block;
+}  
+.part-three button{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 5px 31px;
+    margin: 20px 0px 100px 0px;
+}
+
+.part-three button a{
+    color: white;
+    font-size: 13px;
+}
+.five-cars{
+
+}
+.five-cars img{
+   max-width: 100%; 
+}
+.part-four{
+    background-color: #ef4035;
+}
+.rights p {
+    font-size: 12px;
+    padding: 17px;
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+/*for mobile device*/
+@media(min-width: 0px) and (max-width: 500px){
+
+.subdiv-one {
+    position: absolute;
+    top: 24px;
+    right: -10px;
+}
+.subdiv-one img {
+    width: 33%;
+}
+
+.subdiv-two {
+    position: absolute;
+    top: 10px;
+    left: 193px;
+}
+.subdiv-two img {
+    width: 100%;
+}
+nav ul li {
+    display: inline-block;
+    margin: 7px 0px;
+}
+
+nav ul li a {
+    margin: 0px 11px;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: white;
+}
+/*for small device*/
+@media(min-width: 501px) and (max-width: 768px){
+    
+}
+/*for notebook device*/
+@media(min-width: 768.1px) and (max-width: 992px){
+    
+}
+/*for large device*/
+@media(min-width: 992.1px) and (max-width: 1200px){
+    
+}
